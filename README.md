@@ -24,7 +24,7 @@
     <img alt="Mobile" src="./src/assets/mobile.png">
 </h1>
 
-## 🚀 Technologies
+## 🚀 Tecnologias
 
 Desenvolvido com:
 
@@ -42,7 +42,7 @@ Desenvolvido com:
     • Use algum pré-processador CSS (Stylus, LESS, SASS).
     • Não use nenhum framework de estilo (Bootstrap, Materialize, Tailwind...).
     • Não utilizar o Vuetify.
-## 💻 Project
+## 💻 Projeto
 
 Projeto desenvolvido com o intuito de resolver o desafio do Banco Alfa.
 Seguindo as regras citadas no desafio ultilizando o framework Vue.js.
