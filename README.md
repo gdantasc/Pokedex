@@ -15,13 +15,13 @@
 ## :heavy_check_mark: :computer: :arrow_right: Web Result
 
 <h1 align="center">
-    <img alt="Web" src="./assets/web.png">
+    <img alt="Web" src="./src/assets/web.png">
 </h1>
 
 ## :heavy_check_mark: :computer: :arrow_right: Mobile Result
 
 <h1 align="center">
-    <img alt="Mobile" src="./assets/mobile.png">
+    <img alt="Mobile" src="./src/assets/mobile.png">
 </h1>
 
 ## 🚀 Technologies
