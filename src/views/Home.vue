@@ -6,6 +6,7 @@
       :key="pokemon.id"
       :pokemon="pokemon"
     />
+    <button @click="scrollToTop">↑</button>
   </div>
 </template>
 
@@ -51,6 +52,11 @@ export default {
       return this.pokemons;
     },
   },
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    },
+  },
 };
 </script>
 
@@ -61,6 +67,28 @@ export default {
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
-}
 
+  button {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #000;
+    font-size: 45px;
+    background-color: #ff1c1c;
+    color: #fff;
+    cursor: pointer;
+    transition: filter 0.2s;
+
+
+    &:hover {
+      filter: brightness(0.7);
+    }
+  }
+}
 </style>

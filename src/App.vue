@@ -29,4 +29,7 @@ export default {
 body {
   background: #ededed;
 }
+html {
+  scroll-behavior: smooth;
+}
 </style>
